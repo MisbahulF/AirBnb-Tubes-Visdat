@@ -24,7 +24,7 @@ st.markdown("""
 # Load dataset with extracted features
 @st.cache_data
 def load_data():
-    file_path = "AirbnbData_with_features.csv"  # Ganti dengan path file hasil ekstraksi
+    file_path = "./tubess_visdat/AirbnbData_with_features.csv"  # Ganti dengan path file hasil ekstraksi
     data = pd.read_csv(file_path)
     return data
 
